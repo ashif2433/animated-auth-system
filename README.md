@@ -16,7 +16,7 @@ Featuring:
 ##### **Prerequisites**
 
 Make sure you have the following installed in your system:
-* PHP 8.1+
+* PhP 8.1+
 * Composer
 * MySQL
 * Node.js \& npm 
