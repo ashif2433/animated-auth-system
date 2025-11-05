@@ -40,16 +40,19 @@ Run:
 
 2️⃣ Install dependencies
 Run:
+
     composer install
 
 If you’re using Tailwind for custom builds:
 Run:
+
     npm install
 
 
 3️⃣ Configure the .env file
 Duplicate the example file and rename it:
 Run:
+
     cp .env.example .env
 
 Now open (.env) in your editor and update these values :
@@ -69,6 +72,7 @@ Now open (.env) in your editor and update these values :
 
 4️⃣ Generate app key
 Run:
+
     php artisan key:generate
 
 
@@ -80,6 +84,7 @@ CREATE DATABASE animated_auth;
 
 6️⃣ Run migrations
 Run:
+
     php artisan migrate
 
 This will create tables for users, sessions, jobs, and others.
@@ -87,6 +92,7 @@ This will create tables for users, sessions, jobs, and others.
 
 7️⃣ Run the local development server
 Run:
+
     php artisan serve
 
 Then visit:
@@ -111,30 +117,55 @@ php artisan route:list	     -    View all routes
 ##### Project Structure
 
 animated-auth-system/
+
 ├── app/
+
 │   ├── Http/
+
 │   │   ├── Controllers/
+
 │   │   │   ├── Auth/
+
 │   │   │   │   ├── RegisterController.php
+
 │   │   │   │   ├── LoginController.php
+
 │   │   │   ├── DashboardController.php
+
 │   ├── Models/User.php
+
 ├── database/
+
 │   ├── migrations/
+
 ├── public/
+
 │   ├── uploads/
+
 │   ├── index.php
+
 ├── resources/
+
 │   ├── views/
+
 │   │   ├── auth/
+
 │   │   │   ├── login.blade.php
+
 │   │   │   ├── register.blade.php
+
 │   │   ├── dashboard.blade.php
+
 │   │   ├── edit-profile.blade.php
+
 │   │   ├── welcome.blade.php
+
 ├── routes/
+
 │   ├── web.php
+
 ├── .env
+
 └── composer.json
 
 
@@ -143,7 +174,9 @@ animated-auth-system/
 All user profile images are stored in:
 
 animated-auth-system/
+
 ├──public/
+
 └──└── uploads/
 
 // Make sure this folder exists and has proper write permissions.
