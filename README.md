@@ -149,4 +149,12 @@ animated-auth-system/
 // Make sure this folder exists and has proper write permissions.
 
 
+👨‍💻 ##### Author
+
+Md. Ashrafur Rahman Bhuiyan
+📧 Email: ashrafurrahmanasif191@gmail.com
+🌐 Portfolio: https://ashrafur-rahman.netlify.app/#home
+💼 LinkedIn: https://www.linkedin.com/in/md-ashrafur-rahman-80b761231/
+
+
  **** THANK YOU ****
